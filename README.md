@@ -1,1 +1,11 @@
-Food-101 Classification Challenge
+# Food-101 Classification Challenge
+This is an image classification challenge using [Food-101](http://data.vision.ee.ethz.ch/cvl/food-101.tar.gz) dataset.
+The detailed explanations are written in the [prototype notebook](https://github.com/steph-jung/Food-101/blob/master/notebooks/SJ_Food_101_Modelling_tiny100_prototype.ipynb).
+## Result
+
+| Method | Epochs | Top-1  Accuracy |
+|--------|--------|----------------|
+| [Baseline Model](https://github.com/steph-jung/Food-101/blob/master/notebooks/SJ_Food_101_Modelling_tiny100_prototype.ipynb) | 17 | 0.8664 |
+| [Progressive Resizing + TTA](https://github.com/steph-jung/Food-101/blob/master/notebooks/SJ_Food_101_Modelling_Resizing.ipynb) | 34 | 0.9051 |
+| [Progressive Resizing + Mixup + TTA](https://github.com/steph-jung/Food-101/blob/master/notebooks/SJ_Food_101_Modelling_Resizing_Mixup.ipynb) | 34 | 0.9036 |
+| [Progressive Resizing + Label Smoothing + TTA]() | 34 | |
