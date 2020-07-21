@@ -9,4 +9,3 @@ The prototype model which contains detailed explanations is [here](https://githu
 | [Baseline Model](https://github.com/steph-jung/Food-101/blob/master/notebooks/SJ_Food_101_Modelling_tiny100_prototype.ipynb) | 17 | 0.8664 |
 | [Progressive Resizing + TTA](https://github.com/steph-jung/Food-101/blob/master/notebooks/SJ_Food_101_Modelling_Resizing.ipynb) | 34 | 0.9051 |
 | [Progressive Resizing + Mixup + TTA](https://github.com/steph-jung/Food-101/blob/master/notebooks/SJ_Food_101_Modelling_Resizing_Mixup.ipynb) | 34 | 0.9036 |
-| [Progressive Resizing + Label Smoothing + TTA]() | 34 | |
